@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8506BE23-AC3B-4266-A714-DD5B521564AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{52FDDB4B-2F52-4754-9622-2FCE237F115A}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Krypton", "src\Krypton\Krypton.xproj", "{9EAB68B9-653E-4DFF-A908-B1F498AAD549}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EAB68B9-653E-4DFF-A908-B1F498AAD549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EAB68B9-653E-4DFF-A908-B1F498AAD549}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EAB68B9-653E-4DFF-A908-B1F498AAD549}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EAB68B9-653E-4DFF-A908-B1F498AAD549}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9EAB68B9-653E-4DFF-A908-B1F498AAD549} = {8506BE23-AC3B-4266-A714-DD5B521564AD}
+	EndGlobalSection
+EndGlobal
